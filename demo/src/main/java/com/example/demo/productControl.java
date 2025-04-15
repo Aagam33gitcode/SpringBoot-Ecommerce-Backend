@@ -34,7 +34,15 @@ public class productControl {
         }
         return new ResponseEntity<>(repository.findById(id), HttpStatus.OK);
     }
-        
+
+    @GetMapping("detail/(id)/image")
+    public ResponseEntity<byte[]> getImage(@PathVariable int id){
+        return new ResponseEntity<>(repository.getReferenceById(id).getImageData(),HttpStatus.OK);
+    }
+
+
+
+
     @PostMapping("add")
     public ResponseEntity<products> addpro(products pro){
         return new ResponseEntity<>(repository.save(pro), HttpStatus.ACCEPTED);

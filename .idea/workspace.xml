@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d990ba-b725-43d9-97f6-a1385b8ada12" name="Changes" comment="imageFetch" />
+    <list default="true" id="39d990ba-b725-43d9-97f6-a1385b8ada12" name="Changes" comment="imageFetch">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Aagam33gitcode/SpringBoot-Ecommerce-Backend.git&quot;,
-    &quot;accountId&quot;: &quot;2ff395ad-4269-46ea-959b-ca8b84f86c26&quot;
+    &quot;accountId&quot;: &quot;c6f5770c-2f37-4544-835d-5cab62d50d72&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -55,8 +58,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing main&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -65,6 +70,55 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="customMavenHome" />
+            <option name="emulateTerminal" value="false" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="mavenHomeTypeForPersistence" value="BUNDLED3" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
