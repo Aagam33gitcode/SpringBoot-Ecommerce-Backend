@@ -65,4 +65,28 @@ public class productControl {
         }
     }
 
+    //Update
+    @PutMapping("detail/{id}")
+    public ResponseEntity<?> updateproduct(@PathVariable int id, @RequestPart products pro, @RequestPart MultipartFile image) {
+        products updatepro = null;
+        try {
+            updatepro = service.updateProduct(pro, image);
+            return new ResponseEntity<>(repository.save(pro), HttpStatus.OK);
+
+        } catch (IOException e) {
+
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.OK);
+
+        }
+
+
+    }
+    @DeleteMapping("/detail/{id}")
+    public String deletePro(@PathVariable int id) {
+        if (repository.getReferenceById(id)!= null) {
+            repository.deleteById(id);
+        }
+        return "deleted";
+    }
+
 }
